@@ -1,10 +1,5 @@
 package task_manager;
 
-import lombok.Getter;
-import lombok.Setter;
-
-@Setter
-@Getter
 public class Subtask extends Task {
 
     private int epicId;

@@ -1,15 +1,9 @@
 package task_manager;
 
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
-
 import java.util.ArrayList;
 import java.util.List;
 
 
-@Setter
-@Getter
 public class Epic extends Task {
 
     private List<Subtask> subtasks = new ArrayList<>();;
